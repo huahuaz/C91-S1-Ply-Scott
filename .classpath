@@ -15,5 +15,6 @@
 	<classpathentry kind="lib" path="D:/eclipse/plugins/com.ibm.icu_64.2.0.v20190507-1337.jar" sourcepath="D:/eclipse/plugins/com.ibm.icu_64.2.0.v20190507-1337.jar"/>
 	<classpathentry kind="lib" path="D:/eclipse/plugins/org.eclipse.ui.forms_3.8.200.v20191114-0830.jar" sourcepath="D:/eclipse/plugins/org.eclipse.ui.forms_3.8.200.v20191114-0830.jar"/>
 	<classpathentry kind="lib" path="lib/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="swing2swt.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
