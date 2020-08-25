@@ -78,7 +78,7 @@ public class DeptWin extends Dialog {
 	 * Create contents of the dialog.
 	 */
 	private void createContents() {
-		shell = new Shell(getParent(), SWT.DIALOG_TRIM);
+		shell = new Shell(getParent(), SWT.DIALOG_TRIM | SWT.PRIMARY_MODAL);
 		shell.setSize(413, 338);
 		shell.setText(getText());
 		shell.setLayout(new FormLayout());

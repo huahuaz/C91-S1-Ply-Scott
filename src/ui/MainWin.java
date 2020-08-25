@@ -124,6 +124,15 @@ public class MainWin {
 		menuItem_4.setMenu(menu_3);
 
 		MenuItem menuItem_5 = new MenuItem(menu_3, SWT.NONE);
+		menuItem_5.addSelectionListener(new SelectionAdapter() {
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+				/**
+				 * 打开岗位调整窗口
+				 */
+				new JobChangeWin(shell,SWT.NONE).open();
+			}
+		});
 		menuItem_5.setText("岗位调整");
 
 		MenuItem menuItem_9 = new MenuItem(menu_3, SWT.NONE);
