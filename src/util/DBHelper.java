@@ -32,7 +32,7 @@ public class DBHelper {
      * @throws SQLException
      */
     public Connection getConnection() throws SQLException {
-        String url = "jdbc:oracle:thin:@192.168.174.1:1521:orcl";
+        String url = "jdbc:oracle:thin:@localhost:1521:orcl";
         String user = "scott";
         String password = "a";
         return DriverManager.getConnection(url, user, password);
